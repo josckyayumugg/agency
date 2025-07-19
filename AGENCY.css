@@ -27,6 +27,8 @@
   ---greyeleven: #7b7b7b;
   ---lighthgreyone: #f1f1f1;
   ---lightgreytwo: #e7eff3;
+  ---hidden: #f4f4f4;
+  ---hiddentwo: #e8f4fa;
 
   ---default-fontsize: 1rem;
   ---defaulttwo: 0.9rem;
@@ -125,6 +127,7 @@ body {
   color: white;
   padding: 0.5rem 1.5rem 0.5rem 1.5rem;
   border-radius: 0.3rem;
+  border: none;
 }
 .hero {
   display: grid;
@@ -175,7 +178,7 @@ body {
   display: flex;
   gap: 1rem;
   padding-top: 2rem;
-  font-size: 18rem;
+  font-size: 1.8rem;
 }
 .heroimage {
   display: relative;
@@ -286,6 +289,7 @@ body {
 .sectiontwop {
   color: var(---greyten);
   line-height: 170%s;
+  text-align: start;
 }
 .colorspot {
   position: absolute;
@@ -303,17 +307,138 @@ body {
   display: flex;
 }
 /* sectiontwodivthree */
-.kayonza span img{
-   background-color:var(---primarycolor);
+.kayonza span img {
+  background-color: var(---primarycolor);
   align-self: center;
   height: 3.37rem;
   justify-self: center;
   border-radius: 90rem;
   padding: 0.5rem;
 }
-.sectwodivthree{padding-top: 10rem;}
+.sectwodivthree {
+  padding-top: 10rem;
+}
 /* .phone{
 
 } */
- .imgparallax{justify-self: center;
-align-self: center;}
+.vrtwo {
+  min-width: 50%;
+}
+.vr {
+  position: relative;
+}
+.imgparallax {
+  justify-self: center;
+  align-self: center;
+  position: absolute;
+  right: 100px;
+  top: 62px;
+}
+/* sectionthree
+ */
+/* cardone
+  */
+.card {
+  max-width: 35%;
+  display: flex;
+  gap: 3rem;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.5rem;
+  padding: 2rem;
+}
+.cardone {
+  background-color: var(---hidden);
+}
+.cards {
+  gap: 4rem;
+  align-self: center;
+  align-content: center;
+  justify-content: center;
+  /* display: grid; */
+}
+.cardtwo {
+  background-color: var(---primarycolor);
+}
+.whitebutton {
+  background-color: white;
+}
+.paragwhite {
+  color: white;
+}
+.button {
+  border: none;
+  padding: 1rem 2.8rem 1rem 2.8rem;
+  border-radius: 0.5rem;
+}
+.whitetext {
+  color: white;
+}
+.lineheight {
+  line-height: 170%;
+}
+.logos {
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.workwith {
+  flex-direction: column;
+  padding-top: 8rem;
+}
+.centered {
+  text-align: center;
+}
+/* .workwith{} */
+.footer {
+  position: relative;
+  background-color: #e8f4fa;
+}
+.paichart {
+  position: absolute;
+  top: 100px;
+  right: 502px;
+}
+.star {
+  position: absolute;
+  top: -3rem;
+  left: 140px;
+}
+.footer {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.footerdivone {
+  padding: 10rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  text-align: center;
+}
+.inputfooterr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.inputfooter {
+  border: none;
+  border-radius: 1rem;
+
+  min-width: 40%;
+  min-height: 4.5rem;
+}
+.blackbutton {
+  padding: 1rem 4rem 1rem 4rem;
+  background-color: black;
+  color: white;
+  border-radius: 1rem;
+  border-style: none;
+}
